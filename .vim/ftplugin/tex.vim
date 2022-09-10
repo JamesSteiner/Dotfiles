@@ -39,6 +39,8 @@ call IMAP('.img ', "\\begin{center}\<CR>\\includegraphics[<++>]{<++>}\<CR>\\end{
 call IMAP('.code ', "\\begin{lstlisting}\<CR><++>\<CR>\\end{lstlisting}\<CR><++>\<ESC>k<<", 'tex')
 call IMAP('.mat ', "\\begin{bmatrix}\<CR><++>\<CR>\\end{bmatrix}<++>", 'tex')
 call IMAP('.beg ', "\\begin{<++>}\<CR><++>\<CR>\\end{<++>}<++>", 'tex') " BEST IDEA EVER
+call IMAP('.lstlisting', "\\begin{lstlisting}}\<CR><++>\<CR>\\end{lstlisting}<++>", 'tex')
+
 
 "Miscellaneous maps
 call IMAP('<C-/>', "\\frac{<++>}{<++>}<++>", 'tex')
@@ -154,6 +156,8 @@ call IMAP('Proof::', "\\begin{proof}\<CR><++>\<CR>\\end{proof}<++>", 'tex')
 call IMAP('Proof[]::', "\\begin{proof}[<++>]\<CR><++>\<CR>\\end{proof}<++>", 'tex')
 call IMAP('Subproof::', "\\begin{subproof}\<CR><++>\<CR>\\end{subproof}<++>", 'tex')
 call IMAP('Subproof[]::', "\\begin{subproof}[<++>]\<CR><++>\<CR>\\end{subproof}<++>", 'tex')
+
+call IMAP('::', "::", 'tex')
 
 if filereadable("local.tex.vim")
     so local.tex.vim

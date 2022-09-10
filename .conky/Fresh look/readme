@@ -1,0 +1,19 @@
+If you already have Conky Manager installed
+unzip and put fresh look folder in 
+ ~/conky-manager/themes/)
+
+make sure to install Fonts.
+
+Refresh and load up.
+
+
+
+Conky Manager
+http://teejeetech.blogspot.com.au/p/conky-manager.html
+
+
+sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install conky-manager
+
+

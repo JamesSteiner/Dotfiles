@@ -1,0 +1,52 @@
+# Jess Date and Time
+
+# Conky settings
+background no
+update_interval 1
+
+override_utf8_locale yes
+
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 2048
+
+# Window specifications
+own_window yes
+own_window_class conky
+own_window_transparent yes
+own_window_hints undecorate,below,sticky,skip_taskbar,skip_pager
+
+border_inner_margin 0
+border_outer_margin 0
+
+alignment tm
+gap_x 375
+gap_y 55
+
+# Graphics settings
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+# Text settings
+use_xft yes
+xftalpha 0
+text_buffer_size 2048
+
+uppercase no
+
+default_color F23838
+
+TEXT
+${voffset 10}${color F05000}${font neuropol:size=50}${time %A}${font}${voffset -10}
+${voffset 10}${color EBC167}${font neuropol:size=50}${time %B} ${time %e}${font}${voffset -10}
+${voffset 10}${color 38E6F2}${font Sportrop:size=65}${time %I:%M %p}${font}${voffset -10}
+${font DejaVu Sans Mono:size=9}${execpi 300 export PYTHONIOENCODING=utf8 && gcalcli --conky --lineart=ascii calw 2}
+${font DejaVu Sans Mono:size=9}${execpi 300 gcalcli --conky --lineart=ascii calm 3}
+#${execpi 300 gcalcli --conky agenda}
+#${execi 300 gcalcli --nc --cals=owner calw 4}
+#${execpi 1300 gcalcli --lineart fancy --conky calw 2}
+#${execpi 300 ~/.conky/GoogleCalendar/gcal.sh}
+

@@ -1,0 +1,45 @@
+# Jess Date and Time
+
+# Conky settings
+background no
+update_interval 1
+
+override_utf8_locale yes
+
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 2048
+
+# Window specifications
+own_window yes
+own_window_class conky
+own_window_transparent yes
+own_window_hints undecorate,below,sticky,skip_taskbar,skip_pager
+
+border_inner_margin 0
+border_outer_margin 0
+
+alignment tr
+gap_x 200
+gap_y 55
+
+# Graphics settings
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+# Text settings
+use_xft yes
+xftalpha 0
+text_buffer_size 2048
+
+uppercase no
+
+default_color F23838
+
+TEXT
+${voffset 10}${color 96938C}${font neuropol:size=50}${time %A}${font}${voffset -10}
+${voffset 10}${color E6E6E6}${font neuropol:size=50}${time %B} ${time %e}${font}${voffset -10}
+${voffset 10}${color F23838}${font Sportrop:size=65}${time %I:%M %p}${font}${voffset -10}

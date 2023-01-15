@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/james/poker-assistant/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/50f60b84/
+get_hand_probabilities	/home/james/poker-assistant/starting.py	/^def get_hand_probabilities(hand):$/;"	f
+in_high_special_zone	/home/james/poker-assistant/starting.py	/^def in_high_special_zone(card):$/;"	f
+in_low_special_zone	/home/james/poker-assistant/starting.py	/^def in_low_special_zone(card):$/;"	f
+num_of_straight_flush	/home/james/poker-assistant/starting.py	/^def num_of_straight_flush(char):$/;"	f
+num_of_straights	/home/james/poker-assistant/starting.py	/^def num_of_straights(char):$/;"	f
